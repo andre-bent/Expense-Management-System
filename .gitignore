@@ -1,2 +1,71 @@
-# Ignore backend/server.log
-backend/server.log
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+VENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Test coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Logs
+*.log
+logs/
+**/server.log
+
+# Unit test / pytest cache
+.pytest_cache/
+nosetests.xml
+test-results.xml
+
+# mypy
+.mypy_cache/
+
+# Type checker cache
+.dmypy.json
+.pyre/
+
+# Sphinx documentation
+docs/_build/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# MacOS & Windows junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local environment override files
+.env
+.env.*
+
+# SQLite database
+*.sqlite3
+
+# Backup files
+*~
