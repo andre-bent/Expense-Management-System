@@ -43,7 +43,7 @@ def analytics_stacked_tab():
 
     # Create the stacked bar chart
     chart = alt.Chart(df_long).mark_bar().encode(
-        x='Month:N',
+        x=alt.X('Month:N', axis=alt.Axis(labelAngle=-45)),  # Rotate labels 45 degrees
         y='Total($):Q',
         color='Category:N',
         order = alt.Order("Total($):Q", sort="descending")
