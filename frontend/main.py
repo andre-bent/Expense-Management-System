@@ -6,18 +6,18 @@ from add_update_ui import view_expenses_tab
 
 #Page browser title and tab icon setup
 st.set_page_config(
-    page_title="Expense Tracking System",
+    page_title="Expense Management System",
     page_icon = "📊"
 )
 
 #Homepage title
-st.title("Expense Tracking System")
+st.title("Expense Management System")
 
 tab1, tab2, tab3, tab4 = st.tabs(
-    ["Add/Update Expenses",
-     "View Expenses",
-     "Expense Breakdown by Month",
-     "Expense Breakdown By Category"]
+    ["➕Add/Update Expenses",
+     "📅Expense History",
+     "📶Analytics by Month",
+     "📈Analytics By Category"]
 )
 
 with tab1:
