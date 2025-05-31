@@ -14,8 +14,8 @@ The Expense Management System is a full-stack Python application designed to str
     expense-management-system/
     │── frontend/               # Streamlit application code
     │   ├── main.py             # Main file for executing Streamlit front end
-    │   ├── add_update_ui.py    # Handles adding/updating expenses and displaying a table
-    │   ├── analytics_ui.py     # Displays analytics via bar charts & donut charts
+    │   ├── add_update_ui.py    # Handles adding/updating expenses and displaying an expense history table
+    │   ├── analytics_ui.py     # Displays analytics via stacked column charts & donut charts
     │
     │── backend/                # FastAPI backend server code
     │   ├── server.py           # Defines FastAPI API endpoints
